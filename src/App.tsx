@@ -1,11 +1,8 @@
 import React from "react";
 import Home from "./components/Home/Home";
+
 function App() {
-  return (
-    <div className="App bg-yellow-300">
-      <Home />
-    </div>
-  );
+  return <Home />;
 }
 
 export default App;
